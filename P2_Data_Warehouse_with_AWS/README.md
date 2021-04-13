@@ -38,7 +38,7 @@ And below is an example of what a single log file, 2018-11-13-events.json, looks
 
 {"artist":"Pavement", "auth":"Logged In", "firstName":"Sylvie", "gender", "F", "itemInSession":0, "lastName":"Cruz", "length":99.16036, "level":"free", "location":"Klamath Falls, OR", "method":"PUT", "page":"NextSong", "registration":"1.541078e+12", "sessionId":345, "song":"Mercy:The Laundromat", "status":200, "ts":1541990258796, "userAgent":"Mozilla/5.0(Macintosh; Intel Mac OS X 10_9_4...)", "userId":10}
 
-### How to Run
+## How to Run
 Prerequisites: Configuration file with login details for an active AWS Redshift cluster and ARN for an IAM role with S3 read access.
 
 Run sql_queries.py from terminal or python console to load table create and insert queries.
