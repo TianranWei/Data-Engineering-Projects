@@ -12,4 +12,4 @@ The objective of this project is to create a data warehouse in the cloud for a f
 In this Project, we build an ETL pipeline to extract data stored in .json format in s3 buckets and transforms the data to Warehouse hosted on Amazon Redshift using the AWS SDK for Python
 
 ## Data Lake
-The objective of this project is to build a Data Lake on AWS cloud using Spark. An ETL pipeline was built that extracts the data from S3, processes it using Spark, and loads the data back into S3 as a set of dimensional tables. 
+The objective of this project is to build a Data Lake on AWS cloud using Spark. An ETL pipeline was built that extracts the data from S3, processes it using Spark dataframe and sparkSql, and loads the data back into S3 as a set of dimensional tables in parquet format.
